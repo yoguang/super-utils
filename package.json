@@ -1,0 +1,31 @@
+{
+  "name": "super-utils",
+  "version": "0.0.1",
+  "description": "收集整理js实用工具函数",
+  "main": "dist/main.js",
+  "scripts": {
+    "test": "test",
+    "build": "parcel build src/*/index.js -d ./ --no-source-maps --no-cache"
+  },
+  "bin": {
+    "super-utils": "dist/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yoguang/super-utils.git"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "utils"
+  ],
+  "author": "yao guang wang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yoguang/super-utils/issues"
+  },
+  "homepage": "https://github.com/yoguang/super-utils#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
