@@ -1,5 +1,5 @@
 {
-  "name": "super-utils",
+  "name": "@yoguang/utils",
   "version": "0.0.1",
   "description": "收集整理js实用工具函数",
   "main": "dist/main.js",
